@@ -18,7 +18,6 @@ from .game_objects import Fruit, Splash, spawn_fruit
 from .hand_tracker import HandLandmark, HandTracker
 from .ui_overlay import draw_centered_banner, draw_lives, draw_score_panel, draw_trail, overlay_sprite
 
-
 @dataclass
 class FloatingText:
     text: str
