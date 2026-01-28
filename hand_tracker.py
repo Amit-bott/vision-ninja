@@ -7,12 +7,10 @@ from typing import Optional, Tuple
 import cv2
 import mediapipe as mp
 
-
 @dataclass
 class HandLandmark:
     point: Tuple[int, int]
     confidence: float
-
 
 class HandTracker:
     """Detects the index fingertip position from a webcam frame."""
