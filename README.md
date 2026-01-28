@@ -71,3 +71,4 @@ To contribute back, push a branch to your fork and open a pull request targeting
 
 ## Creator
 Built with ❤️ by **tubakhxn**. Feel free to credit or tag the dev when you show off your webcam slicing skills.
+
