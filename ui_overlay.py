@@ -10,7 +10,6 @@ import numpy as np
 Color = Tuple[int, int, int]
 Point = Tuple[int, int]
 
-
 def overlay_sprite(frame: np.ndarray, sprite: np.ndarray, center: Point, scale: float = 1.0) -> None:
     if sprite is None or sprite.size == 0:
         return
