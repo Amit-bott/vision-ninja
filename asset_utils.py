@@ -14,7 +14,6 @@ from .config import ASSET_DIR
 
 ASSET_VERSION = "3"
 
-
 class AssetManager:
     """Ensures PNG sprites exist and loads them with alpha."""
 
