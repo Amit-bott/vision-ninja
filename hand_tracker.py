@@ -42,3 +42,5 @@ class HandTracker:
 
     def close(self) -> None:
         self._hands.close()
+
+
