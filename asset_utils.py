@@ -410,3 +410,4 @@ class AssetManager:
         canvas[mask] = heart[mask]
         return canvas
     
+    
