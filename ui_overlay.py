@@ -114,5 +114,3 @@ def draw_lives(frame: np.ndarray, lives: int, sprite: np.ndarray) -> None:
     base_x = frame.shape[1] - bar_w + 10
     for i in range(lives):
         overlay_sprite(frame, sprite, (base_x + i * 64, 60), 0.55)
-
-
