@@ -409,3 +409,4 @@ class AssetManager:
         mask = heart[..., 3] > 0
         canvas[mask] = heart[mask]
         return canvas
+        
